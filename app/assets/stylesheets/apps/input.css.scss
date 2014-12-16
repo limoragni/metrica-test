@@ -1,0 +1,75 @@
+$color-white: #CCC;
+
+#input-region{
+
+	margin-top: 20px;
+
+	.btn-xlarge {
+	    padding: 10px 15px;
+	    font-size: 20px; 
+	    line-height: normal;
+	    -webkit-border-radius: 0px 8px 8px 0px;
+	       -moz-border-radius: 0px 8px 8px 0px;
+	            border-radius: 0px 8px 8px 0px;
+	}
+	
+	#timeline-inputs{
+		float: left;
+		width: 500px;
+		margin-right: 100px;
+	}
+
+	ul{
+		color: $color-white;
+		margin: 20px 0px 0px 10px;
+		padding: 0px;
+		list-style-type: none;
+
+		li{
+			overflow: hidden;
+		}
+
+		.time-icon, .input-wrapper{
+			float: left;
+		}
+
+		.input-wrapper{
+			width: 80%;
+			margin-left: 10px;
+			font-size: 17px;
+			border-bottom: 2px solid $color-white;
+			input{
+				background: transparent;
+				border: 0;
+    			outline: 0;
+    			height: 45px;
+			}
+			.edit-input{
+				float:right;
+				padding-top: 15px;
+				cursor: pointer;
+				&:hover{
+					color: white;
+				}
+			}
+		}
+
+		.delete-input{
+			font-size: 17px;
+			margin-left: 10px;
+			padding-top: 15px;
+			cursor: pointer;
+			color: #9E4949;
+			&:hover{
+				color: #E08D8D;
+			}
+		}
+		.time-icon{
+			font-size: 12px;
+			padding-top: 18px;
+		}
+	}
+
+}
+
+

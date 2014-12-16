@@ -1,0 +1,9 @@
+<div class="time-icon">
+	<span class="glyphicon glyphicon-asterisk"><span>
+</div>
+<div class="input-wrapper">
+	<span><%= @formattedTime %> -</span>
+	<input type="text" value="<%= @name %>" disabled>
+	<span class="edit-input glyphicon glyphicon-pencil"><span>
+</div>
+<span class="delete-input glyphicon glyphicon-minus-sign"><span>

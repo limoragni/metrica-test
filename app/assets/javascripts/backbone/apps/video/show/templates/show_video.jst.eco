@@ -1,0 +1,4 @@
+	<div id="video-wrapper">
+		<video id="video-player" class="video-js vjs-default-skin" src="/videos/test.mp4" width="700" height="400" controls></video>
+	</div>
+

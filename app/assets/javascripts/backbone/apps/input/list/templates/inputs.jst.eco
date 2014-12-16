@@ -1,0 +1,7 @@
+<div id="timeline-inputs">
+	<button id="add-line" class="btn btn-xlarge btn-danger">
+		<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+	</button>
+	
+	<ul></ul>
+<div>
